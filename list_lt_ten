@@ -1,0 +1,16 @@
+# list to loop through
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+# find elements in list less than ten
+list1 = [x for x in a if x <= 10]
+
+print(list1)
+
+print "input a number to see what is less than that in a list"
+num = input()
+
+# determine what numbers in list are lower than user submitted number
+list2 = [x for x in a if x <= num]
+
+
+print(list2)
